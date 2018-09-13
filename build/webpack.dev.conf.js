@@ -75,6 +75,8 @@ const devWebpackConfig = merge(baseWebpackConfig, {
       $: 'jquery',
       jQuery: 'jquery',
       'window.jQuery': 'jquery',
+      jquery: 'jquery',
+      'window.jquery': 'jquery',
       Popper: ['popper.js', 'default'],
     })
   ]
